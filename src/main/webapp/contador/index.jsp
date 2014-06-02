@@ -1,0 +1,12 @@
+<HTML>
+<BODY>
+   <FORM METHOD=POST ACTION="index2.jsp">
+   nombre
+   <INPUT TYPE=TEXT NAME=nombre SIZE=20>
+   <INPUT TYPE=SUBMIT>
+</FORM>
+</BODY>
+</HTML>
+
+
+

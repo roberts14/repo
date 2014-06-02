@@ -1,11 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    
+   <servlet>
+      <servlet-name>logser</servlet-name>
+      <servlet-class>login.Inic_secion</servlet-class>
+   </servlet>
 
-<web-app version="3.0"
-         xmlns="http://java.sun.com/xml/ns/javaee"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
-         metadata-complete="false">
+   <servlet>
+      <servlet-name>Controller</servlet-name>
+      <servlet-class>login.Controller</servlet-class>
+   </servlet>
 
-         
+   <servlet>
+      <servlet-name>Registrar</servlet-name>
+      <servlet-class>login.Registro</servlet-class>
+   </servlet>
+
+   <servlet-mapping>
+      <servlet-name>logser</servlet-name>
+      <url-pattern>/logser</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>Controller</servlet-name>
+      <url-pattern>/control</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>Registrar</servlet-name>
+      <url-pattern>/Registrar</url-pattern>
+   </servlet-mapping>
 </web-app>
-
