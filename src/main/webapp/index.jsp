@@ -54,6 +54,7 @@ body{
 	<input type="text" name="user"/>
 	<input type="password" name="pass"/>
 	<input type="submit" value="Login" name="login"/>
+	
 	<input type="submit" value="Entrar sin logear" name="sin"/>
 </form>
 </div>
