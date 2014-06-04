@@ -6,6 +6,11 @@
    </servlet>
 
    <servlet>
+      <servlet-name>vender</servlet-name>
+      <servlet-class>login.GmailEmail</servlet-class>
+   </servlet>
+
+   <servlet>
       <servlet-name>Controller</servlet-name>
       <servlet-class>login.Controller</servlet-class>
    </servlet>
@@ -18,6 +23,11 @@
    <servlet-mapping>
       <servlet-name>logser</servlet-name>
       <url-pattern>/logser</url-pattern>
+   </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>vender</servlet-name>
+      <url-pattern>/vender</url-pattern>
    </servlet-mapping>
 
    <servlet-mapping>
